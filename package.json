@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-planetary-computer",
+  "version": "0.1.0",
+  "description": "Earth-observation imagery catalogue from Microsoft's Planetary Computer — search its open satellite and environmental collections (Sentinel, Landsat, NAIP, Daymet, ERA5, biodiversity) by area and date and get item ids, footprints, dates and asset URLs.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-planetary-computer": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "planetary-computer"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-planetary-computer.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-6be86b2f3a89b459359027dd3ef0d69af1c537f0d1b629e4c9ec075d22f209f4",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+  }
+}

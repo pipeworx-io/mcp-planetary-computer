@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/planetary-computer",
+  "title": "Planetary Computer",
+  "description": "Earth-observation imagery catalogue from Microsoft's Planetary Computer — search its open…",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/planetary-computer",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-planetary-computer",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/planetary-computer/mcp"
+    }
+  ]
+}
