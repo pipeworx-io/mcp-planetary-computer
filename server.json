@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/planetary-computer",
   "title": "Planetary Computer",
   "description": "Earth-observation imagery catalogue from Microsoft's Planetary Computer — search its open…",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/planetary-computer",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-planetary-computer",

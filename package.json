@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-planetary-computer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Earth-observation imagery catalogue from Microsoft's Planetary Computer — search its open satellite and environmental collections (Sentinel, Landsat, NAIP, Daymet, ERA5, biodiversity) by area and date and get item ids, footprints, dates and asset URLs.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-6be86b2f3a89b459359027dd3ef0d69af1c537f0d1b629e4c9ec075d22f209f4",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-0d1a63b111b1ba64eb62db34dee4bb91447cd696da28a9f3563a38605dfad724",
+    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
   }
 }
